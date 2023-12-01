@@ -1,0 +1,38 @@
+.title {
+  @include transition();
+
+  padding: $p-2;
+
+  font-size: $font-32;
+  font-weight: $font-w-700;
+
+  text-align: right;
+  text-decoration: underline;
+  letter-spacing: $p-0-5;
+  color: $primary-color;
+  cursor: pointer;
+
+  &:hover {
+    color: $color-violet;
+  }
+
+  &-section {
+    padding: $p-2;
+
+    font-size: $font-20;
+    text-align: center;
+
+    color: $color-violet;
+  }
+
+  &-description {
+    padding: 0 $p-0-5;
+
+    font-size: $font-12;
+    text-align: center;
+
+    color: $color-violet;
+    letter-spacing: 1px;
+    line-height: 1.3;
+  }
+}
