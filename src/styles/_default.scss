@@ -22,3 +22,15 @@ body {
 .image {
   width: 100%;
 }
+
+.lists {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  padding: $p-2;
+}
+
+.pt-2 {
+  padding-top: 2rem;
+}
